@@ -1,0 +1,1 @@
+mpicc allgather.c -o allgather && mpirun -np 4 ./allgather

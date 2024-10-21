@@ -1,0 +1,39 @@
+gcc -fopenmp badloop.c -o badloop && ./badloop
+
+gcc -fopenmp cri.c -o cri && ./cri
+
+gcc -fopenmp critical.c -o critical && ./critical
+
+gcc -fopenmp dis-err.c -o dis-err && ./dis-err
+
+gcc -fopenmp dis-ok.c -o dis-ok && ./dis-ok
+
+gcc -fopenmp dis-ok1.c -o dis-ok1 && ./dis-ok1
+
+gcc -fopenmp loopA1.c -o loopA1 && ./loopA1
+
+gcc -fopenmp loopA2.c -o loopA2 && ./loopA2
+
+gcc -fopenmp master.c -o master && ./master
+
+gcc -fopenmp pfor-no-schedule.c -o pfor-no-schedule && ./pfor-no-schedule
+
+gcc -fopenmp pi01.c -o pi01 && ./pi01
+
+gcc -fopenmp pi02.c -o pi02 && ./pi02
+
+gcc -fopenmp pi03.c -o pi03 && ./pi03
+
+gcc -fopenmp pi04.c -o pi04 && ./pi04
+
+gcc -fopenmp pipe.c -o pipe && ./pipe
+
+gcc -fopenmp private.c -o private && ./private
+
+gcc -fopenmp reduction.c -o reduction && ./reduction
+
+gcc -fopenmp section.c -o section && ./section
+
+gcc -fopenmp single.c -o single && ./single
+
+gcc -fopenmp threadprivate.c -o threadprivate && ./threadprivate
